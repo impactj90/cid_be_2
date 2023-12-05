@@ -5,3 +5,8 @@ pub mod person;
 pub mod response;
 pub mod user;
 pub mod user_token;
+pub mod customer;
+pub mod service;
+pub mod offer;
+pub mod offer_service;
+pub mod position;

@@ -98,7 +98,7 @@ mod tests {
                 .wrap_fn(|req, srv| srv.call(req).map(|res| res))
                 .configure(config::app::config_services)
         })
-        .bind("localhost:8000".to_string())
+        .bind("localhost:8080".to_string())
         .unwrap()
         .run();
 
